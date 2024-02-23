@@ -82,3 +82,11 @@ footer{
     padding: 8px;
     text-align: center;
 }
+
+.next{
+    background-color: rgb(35, 35, 35);
+    text-align: right;
+    padding-right: 30px;
+    font-size: 2em;
+    font-family: serif;
+}
