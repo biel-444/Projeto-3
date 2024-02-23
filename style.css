@@ -1,11 +1,11 @@
-/*#31cbe0*/
+
 *{
     margin:0% ;
     padding: 0%;
 }
 
 body, html{
-    background-color: #31cbe0;
+    background-color: rgb(35, 35, 35);
 }
 
 header{
@@ -22,12 +22,20 @@ header > p{
     padding-bottom: 50px ;
 }
 
+.past{
+    background-color: rgb(35, 35, 35);
+    text-align: left;
+    padding-left: 30px;
+    font-size: 1.5em;
+    font-family: serif;
+}
+
 section{
     padding-left: 50px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 section > p{
@@ -49,18 +57,21 @@ section.imagem{
  
 section.imagem > p{
     display: inline-block;
+    max-width: 900px;
+    padding-bottom: 10px;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.371);
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.398);
+    background-color: rgba(0, 0, 0, 0.132);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.139);
 }
 
+
 section#img01{
-    background-image: url('imagens/background001.jpg');
+    background-image: url('imagens/pexels-gabriela-palai-395303.jpg');
     background-position: right center;
 }
 
 section#img02{
-    background-image: url('imagens/background002.jpg');
+    background-image: url('imagens/pexels-hassan-ouajbir-1535244.jpg');
     background-position: center;
 }
 
@@ -75,6 +86,13 @@ a:hover{
     color: white;
 }
 
+.next{
+    background-color: rgb(35, 35, 35);
+    text-align: right;
+    padding-right: 30px;
+    font-size: 1.5em;
+    font-family: serif;
+}
 
 footer{
     background-color: rgb(35, 35, 35) ;
@@ -82,14 +100,4 @@ footer{
     font-size: 1.3em;
     padding-bottom: 10px;
     text-align: center;
-}
-
-.next{
-    background-color: rgb(35, 35, 35);
-    text-align: right;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    font-size: 1.5em;
-    font-family: serif;
-
 }
